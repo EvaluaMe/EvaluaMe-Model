@@ -1,15 +1,15 @@
-package roles.teacher;
+package model.degree;
 
 import model.subject.Subject;
 
 import java.util.ArrayList;
 
 /**
- * Created by garciparedes on 16/7/15.
+ * Created by garciparedes on 27/7/15.
  */
-public class Teacher {
+public class Degree {
 
     private String name;
-
+    private String description;
     private ArrayList<Subject> subjects;
 }
